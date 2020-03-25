@@ -84,6 +84,10 @@ DApp 的全名是 `Decentralized Application` (去中心化應用程式)，區�
 
 
 ## 參考資料
+-[EOS三國遊戲介紹 - 亞瑟區塊鏈研究室 - Medium](https://medium.com/@seedyouagain/eos%E4%B8%89%E5%9C%8B%E9%81%8A%E6%88%B2%E4%BB%8B%E7%B4%B9-59b269e0ea50)
+-[【DApp 小介紹 】——關於 DApp 你不可不知的 N 件事 | 動區動趨-最具影響力的區塊鏈媒體 (比特幣, 虛擬貨幣)](https://www.blocktempo.com/about-dapp-n-things-you-need-to-know/)
+-[My Crypto Heroes體驗揭秘：加密英雄值得你挑戰 - 每日頭條](https://kknews.cc/zh-tw/game/4jrx5v2.html)
+-[開發 Dapp - 介紹 (Day01) - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10201870?sc=iThelpR)
 - [FishChain 簡介及相關活動 - 鏈聞 ChainNews](https://www.chainnews.com/zh-hant/articles/730308876827.htm)
 - [FishChain鄭光：區塊鏈遊戲玩家有「消費意識」嗎？ - 每日頭條](https://kknews.cc/news/mpe3p2z.html)
 - [Fish Chain魚鏈：兼顧投資與娛樂的區塊鏈挖礦遊戲｜鏈游坊 - 每日頭條](https://kknews.cc/game/qboy9lr.html)
