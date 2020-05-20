@@ -7,9 +7,9 @@
 
 
         <script type="text/javascript">
-            function get_balance() {
+            function getBalance() {
                 var inputUserName = document.getElementById("name").value;
-                // alert("Set ! " + inputUserName);
+                // alert("Get ! " + inputUserName);
                 document.getElementById("name").value = '';
                 $.ajax(
                     {
@@ -40,9 +40,9 @@
 
     <body>
         <form name="form" id="form">
-            user name：
+            User Name：
             <input type="text" name="name" id="name" />
-            <input type="button" name="set" value="Set" onclick="get_balance()" />
+            <input type="button" name="Get" value="Get" onclick="getBalance()" />
         </form>
     </body>
 </html>
