@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modify Layer 1</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+        <script type="text/javascript">
+            function get_balance() {
+                var inputUserName = document.getElementById("name").value;
+                // alert("Set ! " + inputUserName);
+                document.getElementById("name").value = '';
+                $.ajax(
+                    {
+                        type: 'GET',
+                        url: 'http://3.87.137.58:8888/get_balance?user='+ inputUserName,
+
+                        headers: { 'X-API-key' : '9jhy765ae128e45629ihbn292b2b3f19084ijygv'},
+
+                        success: function(data){
+                            console.log(data);
+                            alert('Set 成功 - ' + data);
+                        },
+
+                        error: function (error){
+                            console.log(data);
+                            alert("Set 失敗 - ", error);
+                        }
+
+                    }
+                )
+
+            }
+
+   
+
+        </script>
+    </head>
+
+    <body>
+        <form name="form" id="form">
+            user name：
+            <input type="text" name="name" id="name" />
+            <input type="button" name="set" value="Set" onclick="get_balance()" />
+        </form>
+    </body>
+</html>
